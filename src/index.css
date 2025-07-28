@@ -9,3 +9,46 @@ body {
   overflow-x: hidden; 
   background-color: aliceblue;   
 }
+
+.navbar {
+  background-color: #BDB76B;
+  padding: 14px 20px;
+  margin: -12px;
+  text-align: center;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar .nav-link {
+  color: #ffffff;
+  text-decoration: none;
+}
+.navbar .nav-link:hover {
+  text-decoration: underline;
+}
+
+.active {
+  background-color: #BC8F8F;   
+  padding: 4px 10px;     
+  border-radius: 7px;
+}
+
+/* useRef Intro */
+.focus-btn {
+  margin-left: 10px;
+}
+.play-btn {
+  margin-left: 10px;
+  margin: 15px 10px;
+  display: block;
+  background-color: #8FBC8F;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.video {
+  width: 250px;
+}
