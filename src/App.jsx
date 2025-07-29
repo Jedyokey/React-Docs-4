@@ -1,7 +1,8 @@
 import React from 'react'
 import { Routes, Route } from 'react-router-dom'
-import EscapeHatches from './pages/EscapeHatches'
 import Navbar from './components/Navbar'
+import EscapeHatches from './pages/EscapeHatches'
+import Referencing from './pages/Referencing'
 
 const App = () => {
   return (
@@ -10,7 +11,7 @@ const App = () => {
 
       <Routes>
         <Route path="/" element={<EscapeHatches />} />
-      
+        <Route path="/referencing-values-with-refs" element={<Referencing />} />
       </Routes>
     
     </>
