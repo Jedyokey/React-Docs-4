@@ -14,6 +14,11 @@ const Navbar = () => {
           className={({ isActive }) => `nav-link ${isActive ? "active" : ""}`}>
           Referencing
         </NavLink>
+        <NavLink 
+          to="/manipulating-the-dom-with-refs" 
+          className={({ isActive }) => `nav-link ${isActive ? "active" : ""}`}>
+          Manipulate_DOM
+        </NavLink>
     </div>
   )
 }

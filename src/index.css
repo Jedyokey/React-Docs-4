@@ -54,3 +54,47 @@ body {
 }
 
 /* Referencing Values with Refs */
+
+/* Manipulating the DOM with Refs */
+.cat-friends {
+  overflow-x: hidden;
+}
+.cat-nav {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+  position: absolute;
+  /* top: 0; */
+  width: 100%;
+  padding: 1rem;
+  z-index: 1000;
+}
+.cat-nav button {
+  margin: 0 10px;
+  padding: 5px 10px;
+  background-color: #8FBC8F;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.img-list {
+  margin-top: 80px; /* adjust as needed for your nav height */
+  list-style: none;
+  padding: 0;
+}
+
+.img-list, .img-list li {
+  list-style: none;
+  white-space: nowrap;
+}
+
+.img-list li {
+  display: inline;
+  padding: 0.5rem;
+}
+
+.todo-list-container {
+  margin-top: 20px;
+}
