@@ -19,6 +19,11 @@ const Navbar = () => {
           className={({ isActive }) => `nav-link ${isActive ? "active" : ""}`}>
           Manipulate_DOM
         </NavLink>
+        <NavLink 
+          to="/synchronizing-with-effect" 
+          className={({ isActive }) => `nav-link ${isActive ? "active" : ""}`}>
+          useEffect_Intro
+        </NavLink>
     </div>
   )
 }
